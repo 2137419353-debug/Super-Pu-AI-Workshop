@@ -1,0 +1,17 @@
+[theme]
+base = "light"
+primaryColor = "#07C160"
+backgroundColor = "#F5F5F5"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1B1F23"
+font = "sans serif"
+
+[server]
+headless = false
+runOnSave = true
+maxUploadSize = 5
+# 让 ./static 目录可通过 /app/static/ 访问（本地 Mermaid 资源，彻底不依赖 CDN）
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false

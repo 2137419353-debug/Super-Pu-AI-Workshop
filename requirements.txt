@@ -1,0 +1,8 @@
+# 大圃 · 微信风多智能体协作空间（组装 timer + pre + task · v4）
+# Python 3.10+（推荐 3.11 / 3.12；本次交付在 Python 3.14.7 上实测）
+# 运行：python -m streamlit run app.py（本地静态资源 static/mermaid.min.js 由 enableStaticServing 提供）
+streamlit==1.62.0
+requests>=2.31,<3
+python-docx>=1.1,<2
+python-pptx>=1.0,<2
+openpyxl>=3.1,<4
